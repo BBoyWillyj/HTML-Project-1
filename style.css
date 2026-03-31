@@ -1,6 +1,11 @@
 /* Basic styling and colors */
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-variation-settings:
+            "wdth" 100;
             margin: 0;
             background-color: #f0f8ff; /* Light blue background */
             color: #333;
@@ -11,12 +16,26 @@
         nav {
             background-color: #4682b4; /* Steel Blue */
         }
+
+        nav ul {
+            justify-content: right;
+        }
+        
         nav a {
             color: white;
             text-decoration: none;
             margin-right: 15px;
             font-weight: bold;
+            
         }
+
+        
+
+        .list li {
+            display: inline;
+            
+        }
+        
         nav a:hover {
             text-decoration: underline;
         }
